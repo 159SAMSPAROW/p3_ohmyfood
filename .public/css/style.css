@@ -727,6 +727,7 @@ template {
 .footer__logo {
   font-size: x-large;
   color: white;
+  letter-spacing: 0.2rem;
 }
 @media screen and (min-width: 768px) {
   .footer__logo {

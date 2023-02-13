@@ -11,6 +11,7 @@
   &__logo {
     font-size: x-large;
     color: $clr_font_btn;
+    letter-spacing: 0.2rem;
 
     @include tablet-only {
       font-size: 2rem;
