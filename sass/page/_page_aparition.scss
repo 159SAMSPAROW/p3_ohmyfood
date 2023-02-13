@@ -1,7 +1,16 @@
-/*.page_aparition{
+.page_aparition {
     opacity: 0;
     animation: appear 1s 2s forwards;
     transform-origin: bottom;
+    
+    -webkit-animation: appear 1s 2s forwards;
+    -moz-animation: appear 1s 2s forwards;
+    -o-animation: appear 1s 2s forwards;
+    -ms-animation: appear 1s 2s forwards;
+    -webkit-transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -o-transform-origin: bottom;
+    -ms-transform-origin: bottom;
 }
 
 @keyframes appear{
@@ -14,4 +23,4 @@
        opacity: 1;
        transform: scaleY(1);
     }
-}*/
+}
