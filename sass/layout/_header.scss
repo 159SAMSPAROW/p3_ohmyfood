@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  height: 30px;
+
+  @include tablet-only {
+    
+  }
+  @include desktop-only {
+    height: 50px;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    & > img {
+       height: 30px;
+      @include tablet-only {
+      }
+      @include desktop-only {
+         height: 50px;
+      }
+    }
+  }
+
+  &__arrow > a {
+    position: absolute;
+    top: 7px;
+    margin: 2%;
+    font-size: 25px;
+    color: $clr_black;
+
+    @include tablet-only {
+      font-size: 35px;
+    }
+    @include desktop-only {
+      margin: 1%;
+    }
+  }
+}
